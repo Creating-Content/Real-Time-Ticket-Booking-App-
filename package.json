@@ -1,0 +1,30 @@
+{
+  "name": "mern-bookmymovie-application",
+  "version": "1.0.0",
+  "description": "movie tickets booking application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dassujan/mern-bookmymovie-application.git"
+  },
+  "keywords": [
+    "MERN-Stack-Application"
+  ],
+  "author": "dassujan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dassujan/mern-bookmymovie-application/issues"
+  },
+  "homepage": "https://github.com/dassujan/mern-bookmymovie-application#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1",
+    "nodemon": "^3.0.1"
+  }
+}
