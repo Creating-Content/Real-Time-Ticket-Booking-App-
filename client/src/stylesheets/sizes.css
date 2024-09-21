@@ -1,0 +1,54 @@
+/* Set height of elements to 100% of viewport height */
+.h-screen {
+  height: 100vh;
+}
+
+/* Set width of elements to 100% of viewport width */
+.w-screen {
+  width: 100vw;
+}
+
+/* Set width of elements to 100% of their containing element's width */
+.w-full {
+  width: 100%;
+}
+
+/* Set font size of elements to an extremely small size (0.14 pixels) */
+.text-sm {
+  font-size: 0.14px;
+}
+
+/* Set font size of elements to a medium size (16 pixels) */
+.text-md {
+  font-size: 16px;
+}
+
+/* Set font size of elements to a large size (18 pixels) */
+.text-lg {
+  font-size: 18px;
+}
+
+/* Set font size of elements to an extra-large size (20 pixels) */
+.text-xl {
+  font-size: 20px;
+}
+
+/* Set font size of elements to an even larger size (24 pixels) */
+.text-2xl {
+  font-size: 24px;
+}
+
+/* Set font size of elements to a very large size (30 pixels) */
+.text-3xl {
+  font-size: 30px;
+}
+
+/* Add a border around elements with this class */
+.border {
+  border-width: 1px;
+}
+
+/* Add a border around elements with this class */
+.br-1 {
+  border-radius: 4px;
+}

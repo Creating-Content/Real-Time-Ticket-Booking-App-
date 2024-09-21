@@ -1,0 +1,164 @@
+/* CSS Code for Styling Cards */
+/* Define a CSS class called "card" */
+.card {
+  /* Set the background color of elements with class "card" to white */
+  background-color: white;
+
+  /* Set the border properties for elements with class "card" */
+  border: 1px solid #b1b1b1;
+}
+
+/* Define a CSS class called "w-400" */
+.w-400 {
+  /* Set the width of elements with class "w-400" to 400 pixels */
+  width: 400px;
+}
+
+.content {
+  /* Set the padding of elements with class "content" to 20 pixels */
+  min-height: 85vh;
+  border: 1px solid #b1b1b1;
+}
+
+/* Define styles for elements with class "underline" */
+.underline {
+  /* Add underline to text and change cursor to pointer on hover */
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Define styles for elements with class "cursor-pointer" */
+.cursor-pointer {
+  /* Change cursor to pointer on hover */
+  cursor: pointer;
+}
+
+/* Define styles for elements with class "uppercase" */
+.uppercase {
+  /* Transform text to uppercase */
+  text-transform: uppercase;
+}
+
+/* Define styles for italicized text */
+i {
+  /* Set font size of italicized text to 20 pixels */
+  font-size: 20px;
+}
+
+/* Define styles for table elements */
+table {
+  /* Set border for table elements */
+  border: 1px solid #b1b1b1;
+}
+
+/* Define styles for table header cells */
+thead th {
+  /* Set bottom border and uppercase text for table header cells */
+  border-bottom: 1px solid #b1b1b1 !important;
+  text-transform: uppercase;
+}
+
+.search-input {
+  /* Set border for search input */
+  height: 60px;
+  border-radius: 5px;
+}
+
+.divider {
+  /* Set border for divider */
+  border: 1px solid #e1e1e1;
+  margin: 10px 0;
+}
+
+/* seats */
+.seat {
+  /* Set height, width, border, and cursor for seat elements */
+  height: 30px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #b1b1b1;
+  cursor: pointer;
+}
+
+.selected-seat h1 {
+  /* Set color of seat number to white for selected seats */
+  color: white !important;
+}
+
+.selected-seat {
+  /* Set background color of selected seats */
+  background-color: #118838;
+}
+
+.booked-seat {
+  /* Set background color of booked seats */
+  background-color: #b1b1b1;
+}
+
+/* loader */
+.loader-parent {
+  /* This class defines the styles for the parent container of the loader. */
+
+  position: fixed;
+  /* The element will be positioned relative to the browser window and will not move when the user scrolls. */
+
+  background-color: black;
+  /* The background color of the loader-parent container is set to black. */
+
+  inset: 0;
+  /* This shorthand property sets the top, right, bottom, and left positions of the element to 0, effectively making the container cover the entire viewport. */
+
+  opacity: 0.8;
+  /* The opacity of the loader-parent container is set to 0.8, making it slightly transparent. */
+
+  display: flex;
+  /* The container's children (in this case, the loader) will be laid out in a horizontal row. */
+
+  justify-content: center;
+  /* The content of the container (the loader) will be horizontally centered within the container. */
+
+  align-items: center;
+  /* The content of the container (the loader) will be vertically centered within the container. */
+
+  z-index: 999999;
+  /* The z-index determines the stacking order of elements. Here, the loader-parent is given a very high z-index, ensuring it appears on top of other elements on the page. */
+}
+
+.loader {
+  /* This class defines the styles for the actual loader element. */
+
+  height: 30px;
+  /* The height of the loader is set to 30 pixels. */
+
+  width: 30px;
+  /* The width of the loader is set to 30 pixels. */
+
+  border: 4px solid var(--colour-secondary);
+  /* The loader has a border with a width of 4 pixels and a color specified as "--colour-secondary" (which might be a custom CSS variable). */
+
+  border-top-color: var(--colour-primary);
+  /* The top border color of the loader is set to "--colour-primary" (another custom CSS variable). This creates the appearance of a loading spinner with two different colored segments. */
+
+  border-radius: 50%;
+  /* The border-radius property is set to 50%, making the loader appear as a circle. */
+
+  animation: loader-anim 1s linear infinite;
+  /* The loader-anim animation is applied to the loader element. The animation will run for 1 second, will have a linear timing function, and will run infinitely. */
+}
+
+/* loader animation */
+@keyframes loader-anim {
+  /* This defines the keyframes for the "loader-anim" animation. Keyframes describe how an element should change at specific points during the animation. */
+
+  0% {
+    transform: rotate(0deg);
+  }
+  /* At 0% of the animation, the loader will be rotated 0 degrees. */
+
+  100% {
+    transform: rotate(360deg);
+  }
+  /* At 100% of the animation, the loader will be rotated 360 degrees. This creates the spinning effect. */
+}

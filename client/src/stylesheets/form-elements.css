@@ -1,0 +1,42 @@
+/* Styling for the input and textarea elements */
+input,
+textarea,
+select {
+  /* Set the height of the input element */
+  height: 40px;
+
+  /* Set the left padding of the input element */
+  padding-left: 15px;
+
+  /* Set the border of the input element */
+  border: 1px solid #8a8a8a;
+
+  /* Set the width of the input element */
+  width: 100%;
+}
+
+/* Styling for the input element when it is in focus (when the user clicks or tabs into the input) */
+input:focus,
+textarea:focus,
+select:focus {
+  /* Remove the default focus outline that browsers usually add to focused elements */
+  outline: none;
+
+  /* Change the border of the input element */
+  border: 1px solid #373737;
+}
+
+/* Styling for textarea elements */
+textarea {
+  /* Set the minimum height of the textarea element */
+  min-height: 100px;
+
+  /* Add padding around the content of the textarea */
+  padding: 15px;
+}
+
+/* Styling for elements with the class "ant-form-item" */
+.ant-form-item {
+  /* Add margin at the bottom of elements with the class "ant-form-item" */
+  margin-bottom: 10px;
+}

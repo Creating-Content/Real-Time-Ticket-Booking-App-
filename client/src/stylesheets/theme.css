@@ -1,0 +1,78 @@
+/* Define custom colors at the root level using CSS variables */
+:root {
+  /* Custom primary color */
+  --colour-primary: #002e2a;
+
+  /* Custom secondary color */
+  --colour-secondary: #e6b412;
+}
+
+/* Style for elements with the class "bg-primary" */
+.bg-primary {
+  /* Set background color to the custom primary color */
+  background-color: var(--colour-primary);
+}
+
+/* Style for elements with the class "bg-secondary" */
+.bg-secondary {
+  /* Set background color to the custom secondary color */
+  background-color: var(--colour-secondary);
+}
+
+.bg-error {
+  /* Set background color to the custom secondary color */
+  background-color: #ff0000;
+}
+
+.bg-warning {
+  /* Set background color to the custom secondary color */
+  background-color: #a2840e;
+}
+
+/* Style for elements with the class "bg-white" */
+.bg-white {
+  /* Set background color to white */
+  background-color: white;
+}
+
+/* Style for elements with the class "bg-black" */
+.bg-black {
+  /* Set background color to black */
+  background-color: black;
+}
+
+/* Style for elements with the class "text-primary" */
+.text-primary {
+  /* Set text color to the custom primary color */
+  color: var(--colour-primary) !important;
+}
+
+/* Style for elements with the class "text-secondary" */
+.text-secondary {
+  /* Set text color to the custom secondary color */
+  color: var(--colour-secondary);
+}
+
+/* Style for elements with the class "text-black" */
+.text-black {
+  /* Set text color to black */
+  color: #000;
+}
+
+/* Style for elements with the class "text-white" */
+.text-white {
+  /* Set text color to white */
+  color: #fff;
+}
+
+/* Style for elements with the class "border-primary" */
+.border-primary {
+  /* Set border color to the custom primary color */
+  border-color: var(--colour-primary);
+}
+
+/* Style for elements with the class "border-secondary" */
+.border-secondary {
+  /* Set border color to the custom secondary color */
+  border-color: var(--colour-secondary);
+}
